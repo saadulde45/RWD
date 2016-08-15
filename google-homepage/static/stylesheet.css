@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    min-width: 980px;
+    min-height: 640px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header {
+    text-align: right;
+    padding: 15px 20px;
+}
+
+li {
+    padding: 10px 15px;
+}
+
+header li button {
+    background-color: rgba(0, 0, 255, 0.6);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 7px 10px;
+    font-weight: bold;
+}
+
+.main-body {
+    min-height: 535px;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    margin: 9% auto 20px;
+}
+
+form input[type="text"] {
+    line-height: 40px;
+    border: 1px solid lightgray;
+    display: block;
+    margin: 10px auto 25px;
+    width: 580px;
+    background: url('images/search-voice.png') no-repeat 100% 5px;
+    background-size: 30px, 30px;
+    padding: 0 40px 0 20px;
+}
+
+form button {
+    background-color: #f2f2f2;
+    color: #757575;
+    border: 1px solid #f2f2f2;
+    height: 40px;
+    border-radius: 2px;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin: 5px 0px 5px 5px;
+}
+
+form button:hover {
+    border-color: lightgray;
+    color: black;
+}
+
+footer {
+    position: static;
+    height: 40px;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    min-width: 980px;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #f2f2f2;
+    color: #666;
+}
+
+.footer-left-content {
+    float: left;
+}
+
+.footer-right-content {
+    float: right;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
