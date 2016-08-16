@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 13px;
     min-width: 980px;
-    min-height: 640px;
+    position: static;
 }
 
 li {
@@ -21,6 +21,10 @@ a {
 a:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+a:visited {
+    color: #666;
 }
 
 header {
@@ -42,7 +46,7 @@ header li button {
 }
 
 .main-body {
-    min-height: 535px;
+    min-height: 375px;
 }
 
 section {
@@ -82,7 +86,7 @@ form button:hover {
 }
 
 footer {
-    position: static;
+    position: absolute;
     height: 40px;
     background-color: #f2f2f2;
     box-sizing: border-box;
@@ -91,6 +95,7 @@ footer {
     padding: 15px;
     border: 1px solid #f2f2f2;
     color: #666;
+    bottom: 0px;
 }
 
 .footer-left-content {
