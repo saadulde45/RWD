@@ -1,0 +1,39 @@
+form {
+    background-color: #D6D5D5;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.padding-left-20 {
+    padding-left: 40px !important;
+}
+
+.btn-group,
+.dropdown-toggle,
+.dropdown-menu {
+    width: 100%;
+    text-align: left;
+    background-color: white;
+}
+
+.btn-group.open .dropdown-toggle {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    border-top: none;
+    margin-top: 0px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.caret {
+    margin: 7px 0 0 !important;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:active {
+    background-color: #FFC300;
+}
